@@ -1,72 +1,47 @@
-🖼️ Image Ecommerce Application
-This is a full-stack e-commerce application for selling digital images, built with Next.js. It features a complete user authentication flow, secure payment processing, and efficient product management.
+# Image selling application with ImageKit, Razorpay and NextAuth.
 
-✨ Features
-User Authentication: Secure user sign-up, sign-in, and session management using NextAuth.js.
 
-Image Management: Seamless image upload, optimization, and delivery powered by ImageKit.io.
 
-Payment Processing: Integration with Razorpay to handle secure payments in test mode.
+# Features:
 
-Product Management: Full CRUD (Create, Read, Update, Delete) functionality for managing products.
+ - User authentication with NextAuth
 
-🚀 Technologies Used
-Frontend: Next.js (React), Tailwind CSS
+ - Image upload with [ImageKit](https://imagekit.io)
 
-Backend: Next.js API Routes, Mongoose, NextAuth.js
+ - Payment processing with Razorpay
 
-Database: MongoDB Atlas
+ - Product management with CRUD operations
 
-Payments: Razorpay
 
-Image CDN: ImageKit.io
 
-🛠️ Installation & Setup
-Follow these steps to get the project running on your local machine.
+# Technologies:
 
-1. Clone the Repository
-git clone https://github.com/kanishkmnit/imageEcom.git
-cd imageEcom
+ - Next.js
 
-2. Install Dependencies
-Install all the required npm packages.
+ - React
 
-npm install
+ - Tailwind CSS
 
-3. Environment Variables
-Create a file named .env.local in the root of your project and add the following variables. Replace the placeholder values with your own credentials.
+ - ImageKit
 
-# MongoDB Configuration (from MongoDB Atlas)
-MONGODB_URI=mongodb+srv://<db_username>:<db_password>@<cluster_name>.mongodb.net/<db_name>?retryWrites=true&w=majority
+ - Razorpay
 
-# Authentication Secret (generate this yourself)
-NEXTAUTH_SECRET=your_32_character_random_string
+ - NextAuth
 
-# ImageKit Configuration (from ImageKit.io dashboard)
-NEXT_PUBLIC_PUBLIC_KEY=your_imagekit_public_key
-IMAGEKIT_PRIVATE_KEY=your_imagekit_private_key
-NEXT_PUBLIC_URL_ENDPOINT=your_imagekit_url_endpoint
 
-# Razorpay Configuration (from Razorpay dashboard in Test Mode)
-RAZORPAY_KEY_ID=your_razorpay_key_id
-RAZORPAY_KEY_SECRET=your_razorpay_secret
-RAZORPAY_WEBHOOK_SECRET=your_webhook_secret
 
-# Mailtrap Configuration (from Mailtrap.io sandbox)
-MAILTRAP_HOST=sandbox.smtp.mailtrap.io
-MAILTRAP_PORT=2525
-MAILTRAP_USER=your_mailtrap_user
-MAILTRAP_PASS=your_mailtrap_password
+# Installation:
 
-4. Build and Run the Application
-First, build the project for production, then start the server.
+ 1. Clone the repository
 
-# Build the project
-npm run build
+ 2. Install dependencies: npm install
 
-# Start the local server
-npm start
+ 3. Start the development server: npm run dev
 
-🖥️ Usage
-After starting the server, open your web browser and navigate to:
-http://localhost:3000
+
+
+# Usage:
+
+ 1. Run the development server: npm run dev
+
+ 2. Open the application in your browser at http://localhost:3000
