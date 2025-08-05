@@ -1,14 +1,14 @@
-Image Ecommerce Application
-This is a full-stack e-commerce application for selling digital images, built with the MERN stack and Next.js. It features a complete user authentication flow, secure payment processing, and efficient product management.
+🖼️ Image Ecommerce Application
+This is a full-stack e-commerce application for selling digital images, built with Next.js. It features a complete user authentication flow, secure payment processing, and efficient product management.
 
 ✨ Features
 User Authentication: Secure user sign-up, sign-in, and session management using NextAuth.js.
 
 Image Management: Seamless image upload, optimization, and delivery powered by ImageKit.io.
 
-Payment Processing: Integration with Razorpay to handle secure and reliable payments in test mode.
+Payment Processing: Integration with Razorpay to handle secure payments in test mode.
 
-Product Management: Full CRUD (Create, Read, Update, Delete) functionality for managing products and their details.
+Product Management: Full CRUD (Create, Read, Update, Delete) functionality for managing products.
 
 🚀 Technologies Used
 Frontend: Next.js (React), Tailwind CSS
@@ -29,12 +29,12 @@ git clone https://github.com/kanishkmnit/imageEcom.git
 cd imageEcom
 
 2. Install Dependencies
-Install all the required npm packages for the project.
+Install all the required npm packages.
 
 npm install
 
 3. Environment Variables
-Create a file named .env.local in the root of your project and add the following environment variables. Replace the placeholder values with your own credentials.
+Create a file named .env.local in the root of your project and add the following variables. Replace the placeholder values with your own credentials.
 
 # MongoDB Configuration (from MongoDB Atlas)
 MONGODB_URI=mongodb+srv://<db_username>:<db_password>@<cluster_name>.mongodb.net/<db_name>?retryWrites=true&w=majority
